@@ -6,6 +6,9 @@ import Brandpartners from '../components/Brandpartners'
 import Formtrail from '../components/Formtrail'
 import Boxslider from '../components/Boxes'
 import Plateform from '../components/Plateform'
+import Testimonials from '../components/Testimonials'
+import Choose from '../components/Choose'
+import Getstarted from '../components/Getstarted'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +21,9 @@ export default function Home() {
     <Formtrail />
     <Boxslider />
     <Plateform />
+    <Testimonials />
+    <Choose />
+    <Getstarted />
    </div>
   );
 }

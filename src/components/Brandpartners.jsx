@@ -27,7 +27,7 @@ const Brandpartners = () => {
     infinite: true,
     speed: 500,
     arrows: false,
-    slidesToShow: 5,
+    slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,

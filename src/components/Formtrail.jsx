@@ -37,7 +37,7 @@ const FreeTrialForm = () => {
       <div className="md:w-1/2 flex justify-center">
         <Image src={Whatsapp} alt="Promo Image" width={500} height={500} />
       </div>
-      <div className="md:w-1/2 bg-gray-100 p-8 rounded-lg shadow-lg mt-8 md:mt-0">
+      <div className="md:w-1/2 bg-gray-100 p-8 rounded-xl shadow-lg mt-8 md:mt-0 border-4 border-gray-300">
         <h2 className="text-2xl font-bold mb-6 text-center text-green-600">
           Start For a 14-Day Free Trial
         </h2>

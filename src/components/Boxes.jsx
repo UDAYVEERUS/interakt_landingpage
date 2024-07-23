@@ -120,11 +120,11 @@ const Boxslider = () => {
         <Slider {...settings}>
           {industries.map((industry, index) => (
             <div key={index} className="px-2 grid grid-cols-3 w-[1200px] mx-auto">
-              <div className="bg-yellow-100 p-2 rounded-lg shadow-md h-[500px]">
+              <div className="bg-[#D3F4E8] p-2 rounded-2xl shadow-md h-[500px]">
                 <div className="justify-center mb-4">
                   <Image src={industry.image} alt={industry.title} className="w-full object-cover" />
                 </div>
-                <h3 className="text-xl font-semibold text-center mb-4">{industry.title}</h3>
+                <h3 className="text-2xl font-semibold text-left mb-4">{industry.title}</h3>
                 <ul className="list-disc list-inside space-y-2">
                   {industry.description.map((item, i) => (
                     <li key={i}>{item}</li>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import facebook from '../../public/assets/facebook.webp';
+import facebook from "../../public/assets/facebook.webp";
 
 const logos = [
   { src: facebook, alt: "Upstox" },
@@ -14,7 +14,6 @@ const logos = [
   { src: facebook, alt: "JioMart" },
   { src: facebook, alt: "Disney+ facebook" },
   { src: facebook, alt: "Disney+ facebook" },
-  
 ];
 
 const Brandpartners = () => {
@@ -54,21 +53,24 @@ const Brandpartners = () => {
 
   return (
     <div className="bg-gray-200 py-8">
-    <div className=" w-[1200px] mx-auto">
-      <h2 className="text-center text-4xl font-bold mb-8">
-      Integrates easily with 60+ platforms
-      </h2>
-      <div className="grid grid-cols-8 gap-4">
-        {logos.map((logo, index) => (
+      <div className=" w-[1200px] mx-auto">
+        <h2 className="text-center text-4xl font-bold mb-8">
+          Integrates easily with 60+ platforms
+        </h2>
+        <div className="grid grid-cols-8 gap-4">
+          {logos.map((logo, index) => (
             <>
-          <div key={index} className="justify-center">
-            <Image className="w-full h-10" src={logo.src} alt={logo.alt} />
-          </div>
-          </>
-        ))}
-        
-    </div>
-    </div>
+              <div key={index} className="justify-center">
+                <Image className="w-full h-10" src={logo.src} alt={logo.alt} />
+              </div>
+            </>
+          ))}
+          
+        </div>
+      </div>
+      <button className="flex mx-auto mt-10 text-white font-medium bg-[#05A68B] border-0 px-8 py-4 focus:outline-none text-lg">
+          Get Started With Free Trial
+          </button>
     </div>
   );
 };
