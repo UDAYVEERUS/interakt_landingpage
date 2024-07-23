@@ -167,7 +167,7 @@ const Choose = () => {
           </div>
           
           
-          <button className="flex mx-auto mt-10 text-white font-medium bg-[#05A68B] border-0 py-2 px-8 py-4 focus:outline-none text-lg">
+          <button className="flex mx-auto mt-10 text-white font-medium bg-[#05A68B] border-0 px-8 py-4 focus:outline-none text-lg">
           Start Free Trial
           </button>
           </div>
