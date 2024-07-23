@@ -18,7 +18,7 @@ const Hero = () => {
           <h1 className="text-5xl font-semibold mt-4">
             Transform Conversations into Conversions with WhatsApp <span className="text-[#05A68B]">Commerce</span>
           </h1>
-          <Image className="h-20 w-24" src={Meta} alt="" />
+          <Image className="h-16 w-24" src={Meta} alt="" />
           <p className="text-xl font-semibold">
             Integrate effortlessly with the WhatsApp Business API. The only
             full-stack platform to offer a seamless customer experience & grow
