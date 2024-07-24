@@ -33,7 +33,7 @@ const FreeTrialForm = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center bg-white p-6 md:p-12">
+    <div className="flex flex-col md:flex-row items-center justify-center bg-white p-6 md:p-12 w-[1200px] mx-auto">
       <div className="md:w-1/2 flex justify-center">
         <Image src={Whatsapp} alt="Promo Image" width={500} height={500} />
       </div>
